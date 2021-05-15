@@ -1,6 +1,6 @@
 const product1 = require('../../../assets/images/product-1.png');
 const product2 = require('../../../assets/images/product-2.png');
-const splash1 = require('../../../assets/images/splash-1.jpg');
+const splash1 = require('../../../assets/images/splash-1.png');
 const splash2 = require('../../../assets/images/splash-2.jpg');
 const test1 = require('../../../assets/images/test-1.png');
 const test2 = require('../../../assets/images/test-2.png');

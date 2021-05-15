@@ -28,7 +28,6 @@ export default function App() {
             <Stack.Screen name="LandingPage" component={LandingPage} />
             <Stack.Screen name="Home" component={Home} />
             <Stack.Screen name="Details" component={Details} />
-            <StatusBar style="auto" />
           </Stack.Navigator>
         </SafeAreaProvider>
       </LoadAssets>

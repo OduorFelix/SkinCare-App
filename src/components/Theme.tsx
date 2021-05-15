@@ -15,6 +15,8 @@ const theme = createTheme({
         dark: "#0C0D34",
         text: "#181d2d",
         bg1: "#f2f3f4",
+        bg2: "#eaeaec",
+        nhp1_1: "#a06931",
 
   },
     spacing: {
@@ -72,8 +74,29 @@ const theme = createTheme({
         color: "dark",
         fontFamily: "SFProText-Semibold",
     },
-    hedaderTitle: {
+    title2: {
         fontSize: 20,
+        color: "dark",
+        fontFamily: "SFProText-Semibold",
+    },
+    tabTitle: {
+        fontSize: 14,
+        lineHeight: 30,
+        color: "dark",
+        fontFamily: "SFProText-Semibold",
+    },
+    subTitle: {
+        fontSize: 28,
+        color: "dark",
+        fontFamily: "SFProText-Regular",
+    },
+    hedaderTitle: {
+        fontSize: 18,
+        color: "dark",
+        fontFamily: "SFProText-Semibold",
+    },
+    hedaderTitle2: {
+        fontSize: 16,
         color: "dark",
         fontFamily: "SFProText-Semibold",
     },
@@ -84,6 +107,12 @@ const theme = createTheme({
     },
     body: {
         fontSize: 15,
+        lineHeight: 24,
+        color: "body",
+        fontFamily: "SFProText-Regular",
+    },
+    body2: {
+        fontSize: 14,
         lineHeight: 24,
         color: "body",
         fontFamily: "SFProText-Regular",
@@ -101,7 +130,13 @@ const theme = createTheme({
         fontFamily: "SFProText-Semibold",
     },
     textPrice: {
-        fontSize: 20,
+        fontSize: 18,
+        lineHeight: 25,
+        color: "body",
+        fontFamily: "SFProText-Semibold",
+    },
+    textPrice2: {
+        fontSize: 15,
         lineHeight: 25,
         color: "body",
         fontFamily: "SFProText-Semibold",
